@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.evgeniy.moiseev.testtaskevo.MainActivity">
+    <item
+        android:id="@+id/menuSort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menuDesc"
+                android:title="@string/title_desc"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/menuAsc"
+                android:title="@string/title_asc"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

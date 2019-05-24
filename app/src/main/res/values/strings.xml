@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestTaskEvo</string>
+    <string name="action_sort">Сортировка</string>
+    <string name="title_notes">Заметки</string>
+    <string name="title_activity_note_details">NoteDetailsActivity</string>
+    <string name="title_desc">От новых к старым</string>
+    <string name="title_asc">От старых к новым</string>
+    <string name="title_share">Поделиться</string>
+    <string name="title_delete">Удалить</string>
+</resources>
